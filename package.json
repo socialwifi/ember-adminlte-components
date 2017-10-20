@@ -1,7 +1,8 @@
 {
   "name": "ember-adminlte-components",
-  "version": "0.1.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.1.1",
+  "description": "AdminLTE integration compoments.",
+  "homepage": "https://github.com/socialwifi/ember-adminlte-components",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -11,13 +12,13 @@
     "start": "ember server",
     "test": "ember try:each"
   },
-  "repository": "",
+  "repository": "https://github.com/socialwifi/ember-adminlte-components",
   "engines": {
     "node": ">= 0.10.0",
     "yarn": ">= 1.0.0"
   },
   "author": "",
-  "license": "MIT",
+  "license": "BSD-2-Clause",
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.2",
     "ember-ajax": "^2.0.1",
