@@ -1,0 +1,11 @@
+<div class="box box-info">
+  <div class="box-header">
+    <h3 class="box-title">{{title}}</h3>
+    <div class="box-tools pull-right">
+      {{#if action}}<button class="btn btn-block btn-warning" type="button" {{action "cancel"}}>{{t "cancel"}}</button>{{/if}}
+    </div>
+  </div>
+  <div class="box-body add-form">
+    {{yield content}}
+  </div>
+</div>

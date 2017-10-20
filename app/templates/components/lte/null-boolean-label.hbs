@@ -1,0 +1,9 @@
+{{#if isNull}}
+  <span class="label label-warning">{{t "components.maybe"}}</span>
+{{else}}
+  {{#if label}}
+    <span class="label label-success">{{t "components.yes"}}</span>
+  {{else}}
+    <span class="label label-danger">{{t "components.no"}}</span>
+  {{/if}}
+{{/if}}

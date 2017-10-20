@@ -1,0 +1,20 @@
+<div class="box-header">
+  {{fa-icon icon}}
+  <h3 class="box-title">{{title}}{{#if helpText}} {{lte.help-tooltip message=helpText}}{{/if}}</h3>
+  {{#if addLink}}
+    <div class="box-tools pull-right">
+      {{#link-to addLink}}<button class="btn btn-block btn-primary" type="button">{{t "add"}}</button>{{/link-to}}
+    </div>
+  {{/if}}
+  {{#if buttonsComponent}}
+    {{component buttonsComponent action=buttonAction}}
+  {{/if}}
+</div>
+<div class="box-body">
+  {{yield}}
+</div>
+{{#if loading}}
+  <div class="overlay">
+    {{fa-icon "refresh" spin=true}}
+  </div>
+{{/if}}

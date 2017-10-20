@@ -1,0 +1,7 @@
+{{#if attrs.loading}}
+  <div class="overlay">
+    {{fa-icon "refresh" spin=true}}
+  </div>
+{{else}}
+  {{yield}}
+{{/if}}
