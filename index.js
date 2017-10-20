@@ -2,7 +2,7 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-adminlte-components\n',
+  name: 'ember-adminlte-components',
   included: function(app) {
     this._super.included(app);
     app.import('node_modules/moment/moment.js');
