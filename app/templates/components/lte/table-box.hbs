@@ -1,6 +1,6 @@
 <div class="box-header">
   {{fa-icon icon}}
-  <h3 class="box-title">{{title}}{{#if helpText}} {{lte.help-tooltip message=helpText}}{{/if}}</h3>
+  <h3 class="box-title">{{title}}{{#if helpText}} {{lte/help-tooltip message=helpText}}{{/if}}</h3>
   {{#if addLink}}
     <div class="box-tools pull-right">
       {{#link-to addLink}}<button class="btn btn-block btn-primary" type="button">{{t "add"}}</button>{{/link-to}}
