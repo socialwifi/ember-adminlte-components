@@ -52,6 +52,9 @@ With that you should get the layout of AdminLTE. Routes will render in the main
 `content-wrapper` section and you can link them in the left side menu.
 
 
+![AdminLTE Ember application](docs/admin_lte_ember.png?raw=true)
+
+
 Components
 ----------
 * https://github.com/socialwifi/ember-adminlte-components/tree/master/app/templates/components/lte/
@@ -125,6 +128,9 @@ Requires *-loading route to be present and configured (see loading state support
 
 ### Notifications
 
+![Notifications support](docs/notification.png?raw=true)
+
+
 **lte/notification-widget** is the HTML widget of a floating notification used in AdminLTE.
 Works together with included notification service to show and fade-out notifications sent from
 various places of your AdminLTE project in ember.
@@ -153,6 +159,9 @@ this.get('notificationService').error('Some text');
 
 
 ### Loading state spinners
+
+![Loading support](docs/loading.png?raw=true)
+
 
 Some components as well as **lte/loading-wrapper** support loading state of Ember routes.
 Like if you fetch a list of elements that will be displayed in a table - it's good to
