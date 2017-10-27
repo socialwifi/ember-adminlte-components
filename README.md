@@ -201,3 +201,8 @@ Depending of needs you can skip the lte/loading-wrapper and use the `loading` va
     somthing
 {{/if}}
 ```
+
+
+Future features
+---------------
+Components, controllers and shared code for CRUD operations (with ember-intl, ember-cp-validations and others).
